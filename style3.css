@@ -1,0 +1,123 @@
+body {
+  scroll-behavior: smooth;
+}
+
+button:hover {
+  box-shadow: 0 6px 15px rgba(0, 128, 128, 0.25);
+}
+
+/* Footer Styling */
+.footer-bg {
+  background-color: #002d2d;
+}
+
+.text-secondary-green {
+  color: #00bfa5;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+/* WHY CHOOSE US */
+.feature-card {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 2px 10px rgba(0, 128, 128, 0.08);
+  transition: all 0.3s ease;
+}
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 128, 128, 0.15);
+}
+
+/* MOST POPULAR TESTS SECTION  */
+.popular-tests-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.popular-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.popular-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 191, 165, 0.2);
+}
+
+.popular-btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  z-index: 10;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.popular-btn i {
+  font-size: 1rem;
+}
+
+/* Carousel */
+.popular-slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+/* BROWSE TEST BY RISKS SECTION  */
+.browse-risk-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.risk-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.risk-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 191, 165, 0.2);
+}
+
+.risk-btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  z-index: 10;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.risk-btn i {
+  font-size: 1rem;
+}
+
+/* Carousel */
+.risk-slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+
+/* TESTIMONIALS */
+.testimonial-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+.testimonial-card:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-5px);
+}
